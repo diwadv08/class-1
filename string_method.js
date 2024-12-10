@@ -1,0 +1,18 @@
+var a="Hello World Welcome All World World";
+// alert(a.length);
+// alert(a.indexOf('q'))
+// alert(a.lastIndexOf('l'))
+// alert(a.charAt(200))
+// alert(a.charCodeAt(2))
+// alert(a.toLowerCase())
+// alert(a.toUpperCase())
+// alert(a.substr(4,4))
+// alert(a.includes('rings'))
+// alert(a.startsWith('Engineering'))
+// alert(a.endsWith('College'))
+// alert("Hello"+a.trim()+"welcome")
+// alert("Hello"+a.trimLeft()+"welcome")
+// alert("Hello"+a.trimRight()+"welcome")
+// alert(a.toString()+5)
+// alert(a.replace('World','--'))
+// alert(a.replaceAll('World','--'))
