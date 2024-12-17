@@ -54,10 +54,10 @@
 
 // Unary Operator
 //a++ ,++a ,a-- ,--a
-let a=10;
-alert(a++)   //12  
-alert(--a)
-alert(a++)
-alert(--a)
-alert(a++)
-alert(a)
+// let a=5;
+// alert(a+5)  //10
+// alert(a+=5) //10
+// alert(a++)  //10
+// alert(--a)  //10
+// alert(a--)  //10
+// alert(a)    //9
