@@ -48,5 +48,31 @@
 //     document.write('<br>')
 // }
 
+// for(let i=1;i<=3;i++){
+//     document.write(i)
+// }
+
+// let i=1;
+// while(i<=3){
+//     i++;
+//     document.write(i)
+// }
+
+// let i=1;
+// do{
+//     i++;
+//     document.write(i)
+// }while(i<=3)
 
 
+
+
+
+for(let j=1;j<=10;j++){
+    document.write(`<h1>${j+'-table'}</h1>`)
+    for(let i=1;i<=25;i++){
+        document.write(i+'*'+j+'='+(i*j))
+        document.write('<br>')
+    }
+    document.write('<hr>')
+}
