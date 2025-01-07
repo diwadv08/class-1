@@ -1,10 +1,10 @@
-var a=[40,12,5,10,20];
+// var a=[40,12,5,10,20];
 
 // a.push(50)
 // a.pop()
 
-a.shift()
-console.log(a);
+// a.shift()
+// console.log(a);
 
 // for(let i=0;i<a.length;i++){
 //     document.write(a[i]+"---")
