@@ -1,4 +1,55 @@
-// var a=[40,12,5,10,20];
+var a=[40,80,12,5,10,20];
+// console.log(a);
+// a.push(80)
+// console.log(a);
+// a.pop();
+// console.log(a);
+
+// console.log(a);
+// a.shift()
+// console.log(a);
+
+// a.map((a,b,c)=>{
+//     console.log(c);
+// })
+
+// var b=a.map((a)=>{
+//     return a*3;
+// })
+
+
+// console.log(b);
+
+// var b=a.filter((a)=>{
+//     return a>30;
+// })
+
+// var b=a.find((a)=>{
+//     return a>30;
+// })
+
+// var b=a.reduce((a,b)=>{
+//     return a+b;
+// })
+
+// console.log(b);
+
+
+
+
+// for(let i=0;i<a.length;i++){
+//     console.log(a[i]);
+// }
+
+// for(let b in a){
+//     console.log(b);
+// }
+// for(let b of a){
+//     console.log(b);
+// }
+
+
+
 
 // a.push(50)
 // a.pop()
