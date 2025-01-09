@@ -1,0 +1,25 @@
+button{
+    background:blue;
+    border:none;
+    padding:5px 30px;
+    border-radius:4px;
+    color:white;
+    font-weight:700;
+}
+i{
+    font-size:15px;
+}
+#i1{
+    position: relative;
+    left:-26px;
+    display:inline;
+}
+p{
+    color:red;
+}
+p::before{
+    content:'*';
+}
+#submit{
+    display:none;
+}

@@ -34,8 +34,8 @@
 
 
 
-let h1=document.createElement('h1');
-h1.innerHTML='Hello World';
-h1.style.color='blue';
-h1.style.background='red';
-document.body.appendChild(h1);
+// let h1=document.createElement('h1');
+// h1.innerHTML='Hello World';
+// h1.style.color='blue';
+// h1.style.background='red';
+// document.body.appendChild(h1);
