@@ -36,7 +36,7 @@
 // }
 
 
-function dsf(e){
+function Typing(e){
    let myInput=e.value;
    let error1=document.querySelector("#error1");
    let error2=document.querySelector("#error2");
