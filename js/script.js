@@ -37,17 +37,71 @@
 
 
 function Typing(e){
+   
    let myInput=e.value;
    let error1=document.querySelector("#error1");
    let error2=document.querySelector("#error2");
    let error3=document.querySelector("#error3");
    let error4=document.querySelector("#error4");
-   if(myInput.length>=10){
-    error1.style.display='green';
+   let submit=document.querySelector("#submit");
+   let first_letter=myInput[0];
+
+   let spl_characters=["*","#","@","&","!","^"];
+   if(myInput.length>0){
+      let array_string=myInput.split("");
+      
+      let num_filter=array_string.filter((e)=>{
+         return isFinite(e);
+      })
+      
+      let spl_count=0;
+      spl_characters.map((e)=>{
+         if(myInput.includes(e)){
+            spl_count+=1;
+         }
+      })
+
+      if(spl_count>0){
+         error3.style.color='green';
+      }
+      else{
+         error3.style.color='red';
+      }
+      
+      
+      if(first_letter==first_letter.toUpperCase()){
+         error2.style.color='green';
+      }
+      else{
+         error2.style.color='red';
+      }
+
+      if(myInput.length>=10){
+       error1.style.color='green';
+      }
+      else{
+       error1.style.color='red';
+      }
+
+      if(num_filter.length>0){
+         error4.style.color='green';
+      }
+      else{
+         error4.style.color='red';
+      }
+
+      
+
+      if(error1.style.color=="green" && error2.style.color=="green" && error3.style.color=="green" && error4.style.color=="green"){
+         submit.style.display='inline'
+      }  
+      else{
+         submit.style.display='none'
+      }
    }
-   else{
-    error1.style.display='red';
-   }
+
+
+
    
 }
 
