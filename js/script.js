@@ -50,6 +50,7 @@ function Typing(e){
    if(myInput.length>0){
       let array_string=myInput.split("");
       
+      
       let num_filter=array_string.filter((e)=>{
          return isFinite(e);
       })
@@ -60,7 +61,7 @@ function Typing(e){
             spl_count+=1;
          }
       })
-
+      
       if(spl_count>0){
          error3.style.color='green';
       }
@@ -104,4 +105,5 @@ function Typing(e){
 
    
 }
+
 
