@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainDiv{
+            display:flex;
+        }
+        .mainDiv>.dleft{
+            width:60%;
+        }
+        .mainDiv>.dleft{
+            display:flex;
+            border:1px solid silver;
+            flex-direction:column;
+        }
+        .mainDiv>.dleft>div{
+            border-bottom:1px solid silver;
+        }
+        a{
+            text-decoration:none;
+        }
+        .mainDiv>.dleft>.header{
+            background:red;
+            color:white;
+        }
+        .mainDiv>.dleft>.header>a{
+            color:white;
+        }
+        
+        .mainDiv>.dleft>div>a{
+            color:rgb(0, 0, 0);
+            display:block;
+            padding:10px;
+        }
+        .mainDiv>.dleft>div:hover a{
+            position: relative;
+            left:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="dleft">
+            <div class="header"><a href="">Home</a></div>
+            <div><a href="">Home</a></div>
+            <div><a href="">Home</a></div>
+            <div><a href="">Home</a></div>
+            <div><a href="">Home</a></div>
+        </div>
+        <div class="dright">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti praesentium, tempora vero veritatis quos amet molestiae earum voluptatibus nemo, id dolores distinctio consequatur quasi repudiandae, asperiores eveniet voluptatem ullam ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illo autem numquam itaque reiciendis fuga unde harum aut aliquid. Sed dolorem necessitatibus vero voluptatibus unde rerum dignissimos minus. Non, animi?</p>
+        </div>
+    </div>
+</body>
+</html>
