@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <style>
+        .tabs>.active{
+            background:green;
+        }
+        .tabs>span{
+            text-decoration:none;
+            background:blue;
+            color:white;
+            padding:4px 30px;
+            border-radius:50px;
+            cursor: pointer;
+        }
+        .container .content{
+            display:none;
+        }
+        .container .activeDiv{
+            display:flex;
+        }
+    </style>
+    <body>
+        <div class="container mt-5">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-3"></div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="tabs">
+                        <span onclick="setActive(this)" id="0" class="active">Home</span>
+                        <span onclick="setActive(this)" id="1">About</span>
+                        <span onclick="setActive(this)" id="2">Contact</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3"></div>
+            </div>
+            <div class="row content activeDiv">
+                <div class="col-6">
+                    <img src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-1.webp" alt="" width="100%">
+                </div>
+               <div class="col-6">
+                <h1>Home</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+               </div>
+            </div>
+            <div class="row content">
+                <div class="col-lg-6">
+                    <h1>About</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                </div>
+                <div class="col-6">
+                    <img src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-2.webp" alt="" width="100%">
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-6">
+                    <img src="https://bootstrapmade.com/content/demo/iLanding/assets/img/features-illustration-3.webp" alt="" width="100%">
+                </div>
+               <div class="col-6">
+                <h1>Contact</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique blanditiis laudantium vel, vitae consectetur libero in suscipit aliquid eligendi error quo, assumenda placeat! Enim qui tempora delectus voluptatum asperiores sequi?</p>
+               </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
