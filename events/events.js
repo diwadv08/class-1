@@ -11,7 +11,6 @@ const Hover=()=>{
 const Up=(e)=>{
     e.style.background='green';
     e.innerHTML='Mouse Up';
-
 }
 const Down=(e)=>{
     e.style.background='blue';

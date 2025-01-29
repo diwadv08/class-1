@@ -1,30 +1,38 @@
 // let obj={
-//     name1:'Hari',
-//     name2:"Vijay",
-//     name2:"Varun"
+//     name:"Hari",
+//     mobile:"9876543",
+//     email:"hari@gmail.com"
 // }
 
-// let a=[1,4,5,10];
-// for(let i of a){
+let obj=new Map([
+    ["name","Hari"],
+    ["mobile","87654331"],
+    ["mobile1","8765433"],
+    ["mobile13","876543322"],
+    ["mobile14","87654331"],
+    ["mobile1","8765433333"],
+    ["email","hari@gmail.com"]
+])
+// console.log(obj.get("mobile"));
+// (obj.set("mobile","888888"));
+// console.log(obj.get("mobile"));
+// obj.delete('mobile');
+// obj.clear();
+// console.log(obj.size);
+// for(let i of obj.keys()){
 //     console.log(i);
 // }
-// console.log(obj);
-const obj=new Map([
-    ["name","Harish"],
-    ["age","12"],
-])
+// console.log('-----------');
 
-for(let j of obj.keys()){
-    console.log(j);
-}
-for(let j of obj.values()){
-    console.log(j);
-}
-// console.log(obj.get('age'));
-// obj.set("name1","hari")
+// for(let i of obj.values()){
+//     console.log(i);
+// }
+// console.log('-----------');
 
-// obj.delete('name1');
-// console.log(obj);
-// obj.clear();
-// console.log(obj);
+
+// for(let i of obj.keys()){
+//     console.log(i+":"+obj.get(i));
+// }
+
+
 
